@@ -9,7 +9,11 @@ export default function App(){
         <main>
             <Nav/>
             <Hero/>
-            <Card img="street-one.png" rating={5.0} reviewCount={6} country='FRA' title="Découvrez l'Alsace sous un autre angle" price={120}/>
+            <div className="card--container">
+                <Card img="street-one.png" rating={5.0} reviewCount={6} country='FRA' title="Découvrez l'Alsace sous un autre angle" price={120}/>
+                <Card img="forest-one.png" rating={4.7} reviewCount={13} country='FRA' title="Empruntez les sentiers du Jura" price={97.25}/>
+            </div>
+           
         </main>
     )
 }

@@ -46,13 +46,14 @@ nav{
 
 }
 
-.card{
-    padding: 10px 30px;
-    position: absolute;
+.card--container{
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
 }
 
 .activity--status{
-    position: relative;
+    position:relative;
     top: 30px;
     left:15px;
     background: #FFFFFF;
@@ -93,6 +94,7 @@ nav{
     font-size: 12px;
     line-height: 13px;
     font-weight: 300;
+    max-width: 175px;
     color : #222222;
 }
 
