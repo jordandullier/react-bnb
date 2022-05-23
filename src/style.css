@@ -18,3 +18,28 @@ nav{
 .nav--logo{
     max-width: 100px;
 }
+
+.hero{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img{
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero > h1{
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero > p{
+    margin-top: 16px;
+    max-width: 320px;
+    font-size: 16px;
+    font-weight: 300;
+}
