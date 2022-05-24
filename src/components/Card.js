@@ -6,9 +6,9 @@ export default function Card(props){
             <div className="activity--status">
                 EPUISE 
             </div>
-            <img src={require(`../images/${props.img}`)} className="card--photo"/>
+            <img src={`../images/${props.img}`} className="card--photo"/>
             <div className="note--info">
-                <img src={require("../images/star.png")} className="star--photo"/>
+                <img src={"../images/star.png"} className="star--photo"/>
                 <span className="average--note">{props.rating}</span> 
                 <span className="number--note">
                     ({props.reviewCount}) - {props.country}
