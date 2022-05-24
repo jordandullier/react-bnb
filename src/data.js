@@ -1,4 +1,4 @@
-export default [
+const data =[
     {
         id: 1,
         title: "Découvrez l'Alsace sous un autre angle",
@@ -39,3 +39,5 @@ export default [
         openSpots: 3,
     }
 ]
+
+export default data
