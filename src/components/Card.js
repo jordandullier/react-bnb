@@ -1,11 +1,16 @@
 import React from "react";
 
 export default function Card(props){
+    let badgeText
+    if(props.openSpots===0){
+        badgeText = "EPUISE"
+    }else{
+        badgeText = "DISPONIBLE"
+    }
+
     return(
         <div className="card">
-            <div className="activity--status">
-                EPUISE 
-            </div>
+            {badgeText && <div className="activity--status">{badgeText}</div>}
             <img src={`../images/${props.img}`} className="card--photo"/>
             <div className="note--info">
                 <img src={"../images/star.png"} className="star--photo"/>

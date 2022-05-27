@@ -46,6 +46,10 @@ nav{
 
 }
 
+.card{
+    position: relative;
+}
+
 .card--container{
     display: flex;
     padding-left: 30px;
@@ -53,11 +57,11 @@ nav{
 }
 
 .activity--status{
-    position:relative;
-    top: 30px;
+    position:absolute;
+    top: 15px;
     left:15px;
     background: #FFFFFF;
-    width: 60px;
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     font-weight: 400;
