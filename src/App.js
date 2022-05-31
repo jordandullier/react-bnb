@@ -11,13 +11,9 @@ export default function App(){
         return (
             <Card
                 key={activity.id} 
-                img={activity.coverImg} 
-                rating={activity.stats.rating} 
-                reviewCount={activity.stats.reviewCount} 
-                country={activity.location.slice(0,3).toUpperCase()} 
-                price={activity.price} 
-                title={activity.title}
-                openSpots={activity.openSpots}
+                activity={activity}
+                // Spread syntax => create n props coresponding to our object
+                // {...activity}
             />
         )
     })
